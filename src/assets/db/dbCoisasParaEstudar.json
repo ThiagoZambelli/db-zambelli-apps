@@ -1,0 +1,41 @@
+{
+    "focosEstudoReact":[
+        {
+        "id": 1,
+        "titulo":"📝Básico de JSX",
+        "descricao": "JSX é a sintaxe de marcação usada pelo React para criar elementos de interface do usuário. Entenda como funciona e como especificar atributos e elementos."
+    }, {
+        "id": 2,
+        "titulo":"💭Conhecimentos fundamentais",
+        "descricao":"Componentes são blocos fundamentais do React, que podem ser reutilizados e combinados para criar interfaces complexas. Compreenda o que são, como usá-los, o que são props e estado e como diferenciá-los."
+    }, {
+        "id": 3,
+        "titulo":"🎣Hooks",
+        "descricao":"Hooks são funções especiais do React que permitem usar recursos de estado e efeito dentro de componentes de função. Conheça os principais hooks, como useState e useEffect, e saiba como criar seus próprios."
+    }, {
+        "id": 4,
+        "titulo":"🧾Formulários e eventos:",
+        "descricao":"Aprenda como usar elementos HTML como input e button dentro do React, e como lidar com eventos como onChange e onClick."
+    }, {
+        "id": 5,
+        "titulo":" ⚙️Fundamentos avançados",
+        "descricao": "Explore conceitos como composição vs herança, componentes de alta ordem, rotas e render props."
+    },{
+        "id": 6,
+        "titulo":"📦Conteúdos avançados",
+        "descricao":"Saiba como otimizar a performance do seu aplicativo, usando técnicas como code-splitting, react-window e useMemo."
+    },{
+        "id": 7,
+        "titulo":"✍️Gerenciadores de estado",
+        "descricao":"Conheça ferramentas populares como Context, Redux e Zustand, que permitem gerenciar o estado de maneira centralizada e escalável."
+    },{
+        "id": 8,
+        "titulo":"👋Requisições e gerenciamento",
+        "descricao":"Descubra como fazer requisições a APIs e gerenciar dados no React, usando bibliotecas como Axios, React-query e SWR."
+    },{
+        "id": 9,
+        "titulo":"🎨Estilos",
+        "descricao":"Por fim, aprenda como aplicar estilos ao seu aplicativo React, usando bibliotecas como Styled Components, Radix UI, Chakra UI e Tailwind."
+    }
+]
+}
