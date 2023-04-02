@@ -5,8 +5,8 @@
 
 <div dsplay="inline-block">
  
- [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=6F4A8E&width=500&height=60&lines=Bem-vindo+ao+-%3E+LithtleZ++Data-base)](https://git.io/typing-svg)
- 
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=6F4A8E&width=400&height=60&lines=Bem-vindo+ao+-%3E+LithtleZ++Data-base)](https://git.io/typing-svg)
+
  <h2 align="left">Feito por : Thiago Zambelli</h2>
  <h3 align="justify">Esse banco de dados tem como princípio armazenar todo o conhecimento e formas de resolução de problemas para serem usados no futuro por mim ou outros programadores!</h3>
  
