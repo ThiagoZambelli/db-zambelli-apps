@@ -100,4 +100,75 @@
 
 ---
 
-    
+&nbsp;
+
+# Dicas JavaScript:
+
+&nbsp;
+
+---
+
+## Spread Operator:
+
+~~~JavaScript
+  curso = {
+    …curso,
+    ano: 2021
+  }
+
+  //Resultado:
+
+  //curso = {
+  //instrutor: "Luiz Fernando",
+  //curso: "React com Typescript",
+  //ano: 2021
+  //}
+~~~
+
+> Esse `...curso` dentro das chaves significa que dentro daquele novo objeto que está sendo criado terá tudo que curso tinha e o ano que faltava.
+
+---
+
+&nbsp;
+
+## Ternaries:
+
+~~~JavaScript
+    return (
+      <>
+        {condicao ?
+          <p> Atende a condição </p>
+        :
+          <p> Não atende a condição </p>
+        }
+      </>
+    )  
+~~~
+
+> O Ternarie e extremamente eficiente para renderização dinamica economizando codigo e tornando mais legivel
+
+  - ### Exemplo de ternário em classes CSS
+  ~~~JavaScript
+    return (
+      <button className={condicional ? "classe-com-condicional" : "classe-sem-condicional"}>
+    Meu botão
+      </button>
+    )
+  ~~~
+
+&nbsp;
+
+- ### Exemplo de ternário em mudança de estado
+  ~~~JavaScript
+    const [curso, setCurso] = useState({ nome: "React com Typescript", completado: false });
+    …
+    setCurso({
+      nome: "React com Typescript",
+      completado: false,
+      completado: condicao ? true : false
+    })
+  ~~~
+  
+---
+
+&nbsp;
