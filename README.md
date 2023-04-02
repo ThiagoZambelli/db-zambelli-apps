@@ -1,12 +1,14 @@
-<img align="right" width="50%" style="margin-top:-20px" src="public/assets/eu.png">
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=6F4A8E&width=500&height=60&lines=Bem-vindo+ao+-%3E+LithtleZ++Data-base)](https://git.io/typing-svg)
+
+<img align="left" width="50%" style="margin-top:-20px" src="public/assets/eu.png">
 
 </br>
 </br>
 
 <div dsplay="inline-block">
- 
- <h1 align="left">Bem-Vindo ao Projeto -> DB Z</h1>
- <h2 align="left">Feito por : Thiago Zambelli</h2>
+
+
+ <h2 align="justify">Feito por : Thiago Zambelli</h2>
  <h3 align="justify">Esse banco de dados tem como princípio armazenar todo o conhecimento e formas de resolução de problemas para serem usados no futuro por mim ou outros programadores!</h3>
  
   <a href="https://www.linkedin.com/in/thiagozambelli">
