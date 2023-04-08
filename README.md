@@ -190,12 +190,14 @@ npm remove -pacote-| yarn remove -pacote- | remover um pacote do projeto
 
 &nbsp;
 
-- ### Metodos HTTP REST mais usados:
+## Metodos HTTP REST mais usados:
 
 - O método `GET` é o método mais comum, geralmente é usado para solicitar que um servidor envie um recurso;
 - O método `POST` foi projetado para enviar dados de entrada para o servidor. Na prática, é frequentemente usado para suportar formulários HTML;
 - O método `PUT` edita e atualiza documentos em um servidor;
 - O método `DELETE` que como o próprio nome já diz, deleta certo dado ou coleção do servidor.
+
+  > [Lista completa de metodos](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)
   
 ---
 
