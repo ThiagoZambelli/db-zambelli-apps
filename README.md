@@ -107,6 +107,23 @@
 &nbsp;
 
 ---
+&nbsp;
+
+## Yarn vs NPM:
+
+NPM | YARN | Utilização
+---------------------| -------| --------
+npm init| yarn init | inicializar o gerenciador
+npm install -pacote-| yarn add -pacote- | instalar um pacote no projeto
+npm update -pacote-| yarn upgrade -pacote- | atualizar um pacote do projeto
+npm remove -pacote-| yarn remove -pacote- | remover um pacote do projeto
+
+
+&nbsp;
+
+---
+
+
 
 ## Spread Operator:
 
@@ -172,3 +189,15 @@
 ---
 
 &nbsp;
+
+- ### Metodos HTTP REST mais usados:
+
+- O método `GET` é o método mais comum, geralmente é usado para solicitar que um servidor envie um recurso;
+- O método `POST` foi projetado para enviar dados de entrada para o servidor. Na prática, é frequentemente usado para suportar formulários HTML;
+- O método `PUT` edita e atualiza documentos em um servidor;
+- O método `DELETE` que como o próprio nome já diz, deleta certo dado ou coleção do servidor.
+  
+---
+
+&nbsp;
+
