@@ -203,3 +203,29 @@ npm remove -pacote-| yarn remove -pacote- | remover um pacote do projeto
 
 &nbsp;
 
+## Truque para linha aparecer quando der hover
+
+~~~CSS
+li {
+
+    list-style: none;
+    display: inline-block;
+    margin: 0 8
+
+    &::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #000;
+        transition: width 0.3s;
+    }
+    
+    &:hover::after {
+        width: 10
+        //transition: width .3s;
+    
+    }
+}
+
+~~~
