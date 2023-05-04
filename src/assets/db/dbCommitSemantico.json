@@ -1,0 +1,49 @@
+{
+    "commitSemantico":[
+        {
+        "id": 1,
+        "titulo":"build",
+        "descricao": "Alterações que afetam o sistema de construção ou dependências externas (escopos de exemplo: gulp, broccoli, npm);"
+    }, {
+        "id": 2,
+        "titulo":"ci",
+        "descricao":"Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs);"
+    }, {
+        "id": 3,
+        "titulo":"docs",
+        "descricao":"Referem-se a inclusão ou alteração somente de arquivos de documentação;"
+    }, {
+        "id": 4,
+        "titulo":"feat",
+        "descricao":"Tratam adições de novas funcionalidades ou de quaisquer outras novas implantações ao código;"
+    }, {
+        "id": 5,
+        "titulo":" fix",
+        "descricao": " Essencialmente definem o tratamento de correções de bugs;"
+    },{
+        "id": 6,
+        "titulo":"perf",
+        "descricao":"Uma alteração de código que melhora o desempenho;"
+    },{
+        "id": 7,
+        "titulo":"refactor",
+        "descricao":"Tipo utilizado em quaisquer mudanças que sejam executados no código, porém não alterem a funcionalidade final da tarefa impactada;"
+    },{
+        "id": 8,
+        "titulo":"style",
+        "descricao":"Alterações referentes a formatações na apresentação do código que não afetam o significado do código, como por exemplo: espaço em branco, formatação, ponto e vírgula ausente etc.);"
+    },{
+        "id": 9,
+        "titulo":"test",
+        "descricao":"Adicionando testes ausentes ou corrigindo testes existentes nos processos de testes automatizados (TDD);"
+    },{
+        "id": 10,
+        "titulo":"chore",
+        "descricao":"Atualização de tarefas que não ocasionam alteração no código de produção, mas mudanças de ferramentas, mudanças de configuração e bibliotecas que realmente não entram em produção;"
+    },{
+        "id": 11,
+        "titulo":"env",
+        "descricao":"Basicamente utilizado na descrição de modificações ou adições em arquivos de configuração em processos e métodos de integração contínua (CI), como parâmetros em arquivos de configuração de containers."
+    }
+]
+}
