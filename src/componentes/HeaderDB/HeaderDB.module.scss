@@ -1,0 +1,17 @@
+@import 'styles/_variaveis.scss';
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: $fonte;
+
+
+    h1{
+        max-width: 30%;
+        img{
+            max-width: 100%;
+        }
+    }
+}

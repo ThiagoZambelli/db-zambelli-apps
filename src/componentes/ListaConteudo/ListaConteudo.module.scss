@@ -1,0 +1,22 @@
+@import 'styles/_variaveis.scss';
+
+.lista{
+padding: 4rem 0;
+
+    li{
+        margin: 2rem 0;
+        h4{
+            display: flex;
+            align-items: center;
+            font-family:$fontTitulo ;
+            font-size: 1.5rem;
+            padding: .5em 2em;
+            color: $destaque;
+        }
+        p{
+            font-size: 1.2rem;
+            text-align: justify;
+            color: $base;
+        }
+    }
+}

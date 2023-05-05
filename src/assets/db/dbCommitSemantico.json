@@ -1,5 +1,7 @@
 {
-    "commitSemantico":[
+    "tutulo": "Commits Semanticos",
+    "assunto": "A organização dos commits de um projeto é de crucial importancia e para ajudar nisso foi criado o sistema de Commits Semanticos",
+    "topicos":[
         {
         "id": 1,
         "titulo":"build",

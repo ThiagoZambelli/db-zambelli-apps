@@ -1,5 +1,7 @@
 {
-    "focosEstudoReact":[
+    "tutulo": "Focos para estudo em React",
+    "assunto": "Uma linha de penssamento para se guiar durante o estudo de React, com um passo a passo bem descritivo",
+    "topicos":[
         {
         "id": 1,
         "titulo":"📝Básico de JSX",

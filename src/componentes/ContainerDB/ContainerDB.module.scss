@@ -1,0 +1,12 @@
+@import 'styles/_variaveis.scss';
+
+.containerDB{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $baseClaro;
+    border-radius: 1rem 1rem 0 0;
+    min-height: 50vh;
+    margin-top: -1rem;
+    border: 2px solid $base;
+}

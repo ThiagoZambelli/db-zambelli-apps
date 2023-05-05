@@ -1,0 +1,23 @@
+@import 'styles/_variaveis.scss';
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $base;
+    color: $fonte;
+    padding: 2rem;
+    font-size: 14px;    
+
+    img {
+        max-width: 4rem;
+    }
+
+    p {
+        a {
+            text-decoration: none;
+            color: $destaque;
+            transition: .5s;
+        }
+    }
+}
