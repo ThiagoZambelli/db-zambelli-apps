@@ -1,0 +1,31 @@
+@import 'styles/_variaveis.scss';
+
+.nav {
+    font-family: $fontTitulo;
+    display: flex;
+
+    &__link {
+        margin: 0 1em;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: $base;
+        transition: .8s;
+
+        &:hover {
+            color: $base;
+            text-shadow: 0.05em 0.05em 0.1em $destaque;
+        }
+    }
+
+    &__linkAtivo {
+        text-decoration: underline;
+        color: $base;
+        text-shadow: 0.05em 0.05em 0.1em $destaque;
+    }
+}
+@media screen and (max-width:600px) {
+    .nav{
+        justify-content: space-between;
+    }
+    
+}

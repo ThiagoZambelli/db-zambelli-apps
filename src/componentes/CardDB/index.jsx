@@ -13,7 +13,7 @@ const CardDB = ({ titulo, assunto, id }) => {
     }
 
     const abrirAssunto = () => {
-        navegar(`/db/conteudo/${id}`)
+        navegar(`conteudo/${id}`)
     }
 
     return (

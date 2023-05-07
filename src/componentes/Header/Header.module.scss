@@ -9,9 +9,23 @@
 
 
     h1{
+        cursor: pointer;
         max-width: 30%;
+        transition: .5s;
         img{
             max-width: 100%;
         }
+
+        &:hover{
+            transform: scale(1.05);
+        }
     }
+}
+@media screen and (max-width:800px) {
+    .header{
+        flex-direction: column;
+        row-gap: 2rem;
+        padding: 4rem 0;
+    }
+    
 }

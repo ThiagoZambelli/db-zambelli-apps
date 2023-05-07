@@ -1,0 +1,16 @@
+@import 'styles/_variaveis.scss';
+
+.testesCSS{
+    display: flex;
+    flex-direction: column;
+    min-width: 90vw;
+    align-items: center;    
+
+    h2{
+        font-family: $fontTitulo;
+        font-size: 3rem;
+        color: $destaque;
+        width: 100%;
+        text-align: center;
+    }
+}

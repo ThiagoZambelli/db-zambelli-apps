@@ -1,0 +1,34 @@
+@import 'styles/_variaveis.scss';
+
+.inicio{
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;      
+    h2{
+        font-family: $fontTitulo;
+        font-size: 3rem;
+        flex-wrap: wrap;
+        color: $fonte;
+        line-height: 1.5em;
+        order: 2;
+    }
+    img{
+        max-width: 50%;
+    }
+    
+}
+@media screen and (max-width: 760px){
+    .inicio{   
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            font-size: 2rem;
+            text-align: center;            
+        }     
+        img{
+            max-width: 70%;
+            order: 2;
+        }
+    }
+}
+

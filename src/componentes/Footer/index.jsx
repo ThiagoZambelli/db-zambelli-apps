@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import styles from './FooterDB.module.scss';
+import styles from './Footer.module.scss';
 import eu from 'assets/img/eu.png';
 
-const FooterDB = () => {
+const Footer = () => {
     return (
         <footer className={styles.footer}>
             <img src={eu} alt="Imagem do mini EU" />
@@ -14,4 +14,4 @@ const FooterDB = () => {
     )
 }
 
-export default FooterDB
+export default Footer
