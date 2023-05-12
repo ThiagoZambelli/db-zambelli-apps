@@ -1,0 +1,52 @@
+@import 'styles/_variaveis.scss';
+.cardFlip{
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .titulo{
+        font-size: 2rem;
+        margin: .5em 0;
+        display: inline-block;
+        color: $base;   
+    }
+    .cardContainer {
+        max-width: 300px;
+        min-width: 220px;
+        perspective: 1000px;
+        min-height: 250px;
+        padding: 1rem .5rem;
+    
+        .cardFront,
+        .cardBack {
+            position: absolute;
+            backface-visibility: hidden;
+            transform-style: preserve-3d;
+            transition: all 1s ease;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box; 
+            border-radius: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            box-shadow: 0 0 9px $destaque;  
+        }
+        .cardFront {
+            transform: rotateY(0deg);
+        }
+        
+        .cardBack {
+            transform: rotateY(180deg);           
+        }
+    
+        &:hover .cardFront{
+            transform: rotateY(-180deg);
+        }
+        &:hover .cardBack{
+            transform: rotateY(0deg);
+        }
+    }
+    
+}
